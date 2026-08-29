@@ -17,8 +17,8 @@ export const NAV_LINKS = [
  * Example: https://www.facebook.com/reel/1234567890
  */
 export const FACEBOOK_VIDEOS: { title: string; url: string }[] = [
-  { title: "Rooftop cleaning walkthrough", url: "" },
-  { title: "Bird & animal protection install", url: "" },
+  { title: "Rooftop cleaning walkthrough", url: "https://www.facebook.com/reel/1763119288007432" },
+  { title: "Bird & animal protection install", url: "https://www.facebook.com/reel/1529557345408827" },
 ];
 
 export function facebookEmbedSrc(url: string) {
